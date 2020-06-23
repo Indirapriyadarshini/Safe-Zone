@@ -29,8 +29,7 @@ Details regarding busy/quiet hours pops up as a modal. For test centers, the det
      <td>Church Timing Details</td>
   </tr>
   <tr>
-    <td><img src="/assets/images/test_center_Details.png" width=270 height=480></td>
-    <td><img src="/assets/images/testing_center_testing_Details.png" width=270 height=480></td>
+    <td><img src="https://github.com/Indirapriyadarshini/Safe-Zone/blob/master/Safe-Zone-master/images/test_center_Details.png" width=270 height=480></td>
     <td><img src="/assets/images/restaurant.png" width=270 height=480></td>
     <td><img src="/assets/images/store.png" width=270 height=480></td>
     <td><img src="/assets/images/store_timing.png" width=270 height=480></td>
