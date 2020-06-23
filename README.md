@@ -2,16 +2,16 @@
 
 Click this link to view our demo: [Safe-Zone](https://www.youtube.com/watch?v=xoMrt-vMl9M&feature=youtu.be)
 
-##Background:
+## Background:
 Safe-Zone is currently a concept mobile app we have designed with mock-up data that shows the busy and quiet hours for certain restaurants, covid-19 test centers, stores and churches in the city of New York which was very hard-hit by the covid-19 pandemic. 
 
-##Real World Problem:
+## Real World Problem:
 Considering the covid-19 pandemic, the idea of being in public itself is its own risk. This is due to how highly contagious the disease is. Being near other people automatically puts you at risk for contracting the virus, since there is no way of knowing who has it or not. It becomes a particularly more dangerous situation when crowding occurs. In a city like New York, where crowds are sometimes inevitable, the risk is more real compared to other places.
 
-##Solution:
+## Solution:
 Our app provides users with the information they need to plan their trips according to busy and quiet hours for certain establishments (these establishments are already mentioned above in the Background section). By providing users with a list of the busy/quiet hours typical for specific locations, it will help them to better prepare and plan their visits. For example, they have the information at hand to select any of the quiet times to visit an establishment. Likewise, they will know beforehand if they are visiting an establishment during busy hours and will be able to better prepare (e.g. ensuring that they do not forget masks and hand sanitizers before leaving their homes). This app will help users to plan their trips or outings with more confidence. It eliminates the fear factor of not knowing what to expect when venturing out in public, especially in a city like New York.
 
-##UX/UI Breakdown:
+## UX/UI Breakdown:
 
 These are the location categories we are reporting busy/quiet times for. Each location category has 4 unique locations which are pinned on the map (hard-coded data from the JSON API):
 
@@ -41,7 +41,7 @@ Details regarding busy/quiet hours pops up as a modal. For test centers, the det
 
 ![Test Center](/assets/images/test_center_Details.png)![Test Center Testing Details](/assets/images/testing_center_testing_Details.png)![Restaurant](/assets/images/restaurant.png)![Restaurant Timing Details](/assets/images/restaurant_timing_Detail.png)![Store](/assets/images/store.png)![Store Timing Details](/assets/images/store_timing.png)![Church](/assets/images/church.png)![Church Timing Details](/assets/images/church_timing_details.png)
 
-##Technology, Tools and Architecture
+## Technology, Tools and Architecture
 
 * FLutter
 * Dart
@@ -96,7 +96,7 @@ General Directory Structure:
 |-test
 ```
 
-##API Challenges
+## API Challenges
 
 Difficulty sourcing an API that measures crowd data in Real Time so that we can show crowd statistics for any given location at any time.
 
@@ -114,7 +114,7 @@ Eventually, two other promising possibilities were found but could not be used:
 
 2) “BestTime” API: This was the best and most promising API we found. However, it was not free. It is a subscription-based service. As a result, we decided against using it. However, if this concept app were to be moved to production, we can implement this solution, thereby eliminating use of our extremely limited mock-up data.
 
-##Improvements
+## Improvements
 
 Implement “BestTime” API when ready to move this app to production.
 
